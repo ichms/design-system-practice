@@ -1,0 +1,23 @@
+{
+  "name": "invites-loop-web-h9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "pnpm run --filter=invites-loop dev",
+    "build": "pnpm run --filter=invites-loop build",
+    "test": "pnpm --dir apps/invites-loop run precommit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
+    "@repo/config-commitlint": "workspace:*",
+    "husky": "^9.1.7",
+    "typescript": "^5.9.3"
+  }
+}

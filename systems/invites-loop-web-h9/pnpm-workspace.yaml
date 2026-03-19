@@ -1,0 +1,10 @@
+packages: 
+  - "apps"
+# 메인 앱
+  - "apps/*"
+# 앱에서 사용하기 위한 모듈이 포함됩니다. 해당 모듈은 애플리케이션에 직접적으로 사이드 이펙트를 주지 않습니다.
+  - "packages/*"
+  
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver

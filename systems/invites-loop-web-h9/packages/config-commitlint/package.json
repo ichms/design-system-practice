@@ -1,0 +1,12 @@
+{
+  "name": "@repo/config-commitlint",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.cjs"
+  },
+  "peerDependencies": {
+    "@commitlint/config-conventional": "^20.0.0"
+  }
+}

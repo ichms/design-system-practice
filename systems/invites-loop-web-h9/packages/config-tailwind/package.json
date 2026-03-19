@@ -1,0 +1,10 @@
+{
+  "name": "@repo/config-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./postcss": "./postcss.mjs",
+    "./tailwind.config.mjs": "./tailwind.config.mjs"
+  }
+}

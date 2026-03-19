@@ -1,0 +1,11 @@
+.github
+node_modules
+
+dist
+.next
+.prettierignore
+.gitignore
+.eslintignore
+*.md
+*.env.*
+Dockerfile
